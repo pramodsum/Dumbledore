@@ -14,6 +14,13 @@
 		49E0DF591E0BAF0A004B4767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E0DF571E0BAF0A004B4767 /* LaunchScreen.storyboard */; };
 		49E0DF641E0BAF0A004B4767 /* DumbledoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0DF631E0BAF0A004B4767 /* DumbledoreTests.swift */; };
 		49E0DF6F1E0BAF0A004B4767 /* DumbledoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0DF6E1E0BAF0A004B4767 /* DumbledoreUITests.swift */; };
+		49E0DF7E1E0BAF43004B4767 /* micro-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E0DF7D1E0BAF43004B4767 /* micro-100.png */; };
+		49E0DF831E0BAF61004B4767 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49E0DF801E0BAF61004B4767 /* AcousticModelEnglish.bundle */; };
+		49E0DF841E0BAF61004B4767 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0DF811E0BAF61004B4767 /* OpenEars.framework */; };
+		49E0DF851E0BAF61004B4767 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0DF821E0BAF61004B4767 /* Slt.framework */; };
+		49E0DF881E0BAF87004B4767 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0DF871E0BAF87004B4767 /* AVFoundation.framework */; };
+		49E0DF8A1E0BAF8F004B4767 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0DF891E0BAF8F004B4767 /* AudioToolbox.framework */; };
+		49E0DF8F1E0C4A99004B4767 /* dumbledore.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E0DF8E1E0C4A99004B4767 /* dumbledore.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,14 @@
 		49E0DF6A1E0BAF0A004B4767 /* DumbledoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbledoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E0DF6E1E0BAF0A004B4767 /* DumbledoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbledoreUITests.swift; sourceTree = "<group>"; };
 		49E0DF701E0BAF0A004B4767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E0DF7D1E0BAF43004B4767 /* micro-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "micro-100.png"; sourceTree = "<group>"; };
+		49E0DF801E0BAF61004B4767 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		49E0DF811E0BAF61004B4767 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		49E0DF821E0BAF61004B4767 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		49E0DF871E0BAF87004B4767 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		49E0DF891E0BAF8F004B4767 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		49E0DF8B1E0BAFA4004B4767 /* OpenEarsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenEarsHeader.h; sourceTree = "<group>"; };
+		49E0DF8E1E0C4A99004B4767 /* dumbledore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dumbledore.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E0DF881E0BAF87004B4767 /* AVFoundation.framework in Frameworks */,
+				49E0DF8A1E0BAF8F004B4767 /* AudioToolbox.framework in Frameworks */,
+				49E0DF851E0BAF61004B4767 /* Slt.framework in Frameworks */,
+				49E0DF841E0BAF61004B4767 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				49E0DF4D1E0BAF0A004B4767 /* Dumbledore */,
+				49E0DF7F1E0BAF61004B4767 /* Framework */,
 				49E0DF621E0BAF0A004B4767 /* DumbledoreTests */,
 				49E0DF6D1E0BAF0A004B4767 /* DumbledoreUITests */,
 				49E0DF4C1E0BAF0A004B4767 /* Products */,
+				49E0DF861E0BAF87004B4767 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +121,8 @@
 				49E0DF4E1E0BAF0A004B4767 /* AppDelegate.swift */,
 				49E0DF501E0BAF0A004B4767 /* ViewController.swift */,
 				49E0DF521E0BAF0A004B4767 /* Main.storyboard */,
-				49E0DF551E0BAF0A004B4767 /* Assets.xcassets */,
-				49E0DF571E0BAF0A004B4767 /* LaunchScreen.storyboard */,
-				49E0DF5A1E0BAF0A004B4767 /* Info.plist */,
+				49E0DF7C1E0BAF34004B4767 /* Images */,
+				49E0DF8D1E0C4836004B4767 /* Misc */,
 			);
 			path = Dumbledore;
 			sourceTree = "<group>";
@@ -123,6 +143,45 @@
 				49E0DF701E0BAF0A004B4767 /* Info.plist */,
 			);
 			path = DumbledoreUITests;
+			sourceTree = "<group>";
+		};
+		49E0DF7C1E0BAF34004B4767 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49E0DF8E1E0C4A99004B4767 /* dumbledore.png */,
+				49E0DF7D1E0BAF43004B4767 /* micro-100.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		49E0DF7F1E0BAF61004B4767 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				49E0DF801E0BAF61004B4767 /* AcousticModelEnglish.bundle */,
+				49E0DF811E0BAF61004B4767 /* OpenEars.framework */,
+				49E0DF821E0BAF61004B4767 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		49E0DF861E0BAF87004B4767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E0DF891E0BAF8F004B4767 /* AudioToolbox.framework */,
+				49E0DF871E0BAF87004B4767 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E0DF8D1E0C4836004B4767 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				49E0DF551E0BAF0A004B4767 /* Assets.xcassets */,
+				49E0DF571E0BAF0A004B4767 /* LaunchScreen.storyboard */,
+				49E0DF5A1E0BAF0A004B4767 /* Info.plist */,
+				49E0DF8B1E0BAFA4004B4767 /* OpenEarsHeader.h */,
+			);
+			name = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E0DF8F1E0C4A99004B4767 /* dumbledore.png in Resources */,
+				49E0DF7E1E0BAF43004B4767 /* micro-100.png in Resources */,
 				49E0DF591E0BAF0A004B4767 /* LaunchScreen.storyboard in Resources */,
 				49E0DF561E0BAF0A004B4767 /* Assets.xcassets in Resources */,
+				49E0DF831E0BAF61004B4767 /* AcousticModelEnglish.bundle in Resources */,
 				49E0DF541E0BAF0A004B4767 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +474,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = Dumbledore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pramodsum.Dumbledore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pramods/Documents/Box Documents/Dumbledore/Dumbledore/OpenEarsHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +492,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = Dumbledore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pramodsum.Dumbledore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pramods/Documents/Box Documents/Dumbledore/Dumbledore/OpenEarsHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +579,7 @@
 				49E0DF751E0BAF0A004B4767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49E0DF761E0BAF0A004B4767 /* Build configuration list for PBXNativeTarget "DumbledoreTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +588,7 @@
 				49E0DF781E0BAF0A004B4767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49E0DF791E0BAF0A004B4767 /* Build configuration list for PBXNativeTarget "DumbledoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +597,7 @@
 				49E0DF7B1E0BAF0A004B4767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
